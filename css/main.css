@@ -260,7 +260,7 @@ a:hover, a:focus {
 }
 
 .logo img {
-	margin-top: 6px;
+  margin-left: 20px;
 }
 
 
@@ -269,7 +269,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-bg.jpg) no-repeat center center;
+  background: url(../img/main-image.png) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -350,7 +350,7 @@ header {
 }
 
 #be-the-first {
-  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
+  background: url(../img/background-gradation.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -377,24 +377,12 @@ hr.line {
 	border-color: #fdc05d;
 	color: #fdc05d;
 }
-
-.iphone {
-    position: relative;
-    height: 200px;
-}
-
-.iphone img {
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-width: 440px;
-}
-
 footer {
-  background: #ffffff;
-  padding: 40px 0px;
+  background-color: white;
+}
+
+footer img{
+  max-width: 100%;
 }
 
 .social li a:hover {
@@ -404,6 +392,7 @@ footer {
 /*---------------Exhibition-------------------*/
 #exhibition {
   background-color: #e6e9f0;
+  padding-bottom: 150px;
 }
 
 #exhibition h2{
@@ -488,7 +477,19 @@ footer {
 #be-the-first { 
       background-attachment: scroll;
   }
+}
+#main-info h2{
+  color: #58595a;
+}
 
+p.white{
+  color: white;
+}
+a.btn-custom { 
+  border: 2px solid rgba(255,255,255, .8);
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 10px;
 }
 
 
