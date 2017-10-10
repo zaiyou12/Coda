@@ -362,20 +362,9 @@ hr.line {
 	width: 100%;
 	border: 2px solid;
 }
-
-.purple {
-	border-color: #6d3f96;
-	color: #6d3f96;
-}
-
-.blue {
-	border-color: #70cbce;
-	color: #70cbce
-}
-
-.yellow {
-	border-color: #fdc05d;
-	color: #fdc05d;
+.red{
+    border-color: #e52529;
+    color: #e52529;
 }
 footer {
   background-color: white;
@@ -517,7 +506,7 @@ h1 {
       background-attachment: scroll;
   }
   .tz-gallery .thumbnail{
-    height: 750px;
+    height: 700px;
   }
 }
 
@@ -526,7 +515,7 @@ h1 {
 /* Desktops and laptops ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
   .tz-gallery .thumbnail{
-    height: 750px;
+    height: 700px;
   }
 }
      
@@ -535,7 +524,7 @@ h1 {
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
   .tz-gallery .thumbnail{
-    height: 750px;
+    height: 700px;
   }
 }   
 
