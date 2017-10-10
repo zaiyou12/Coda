@@ -221,7 +221,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #70cbce;
+    background: #e52529;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -383,6 +383,7 @@ footer {
 
 footer img{
   max-width: 100%;
+    min-width: 100%;
 }
 
 .social li a:hover {
@@ -444,6 +445,7 @@ footer img{
   font-size: 12px;
   color: #7b7d7d;
   margin: 0;
+    text-align:justify;
 }
 #baguetteBox-overlay .full-image img{
   height: 50%;
@@ -515,7 +517,7 @@ h1 {
       background-attachment: scroll;
   }
   .tz-gallery .thumbnail{
-    height: 700px;
+    height: 750px;
   }
 }
 
@@ -524,7 +526,7 @@ h1 {
 /* Desktops and laptops ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
   .tz-gallery .thumbnail{
-    height: 700px;
+    height: 750px;
   }
 }
      
@@ -533,7 +535,7 @@ h1 {
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
   .tz-gallery .thumbnail{
-    height: 700px;
+    height: 750px;
   }
 }   
 
